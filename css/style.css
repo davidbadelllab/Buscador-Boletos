@@ -1,0 +1,127 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+img {
+    height: 100px !important;
+    width: 100px !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-b {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 400px;
+    margin-bottom: 45px;
+    list-style: none;
+    width: auto;
+
+}
+
+
+.nav-link-b.active {
+    background-color: #e94253 !important;
+    border: 20px solid #e94253 !important;
+    color: white !important;
+
+}
+
+.nav-tabs-b .nav-link-b {
+    border: 20px solid transparent;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+
+}
+
+.nav-tabs-b .nav-link-b {
+    background-color: #f5f6f6;
+    color: #e83f53;
+    border-radius: 25px;
+
+}
+
+.nav-tabs-b {
+    border-bottom: none !important;}
+
+.form-control {
+    border-radius: 1.25rem;
+    box-shadow: 0px 4px 6px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 4px 6px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 6px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 6px -5px rgba(0, 0, 0, 0.75);
+}
+
+.btn-pararel {
+    border-radius: 50px;
+    background-color: #e94253 !important;
+    border: 2px solid #e94253 !important;
+    color: white;
+}
+
+.btn-paralel:hover {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+.select-paralel {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.item {
+    width: 200px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+/*float layout*/
+.float {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.float:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.float-item {
+    float: left;
+}
+
+
+/*inline-block*/
+.inline-b {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inline-b-item {
+    display: inline-block;
+}
+
+/*Flexbox*/
+.flex {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;}
